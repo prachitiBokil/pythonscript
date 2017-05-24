@@ -4,7 +4,7 @@ import numpy as np
 
 def main():
 
-	data = pd.read_csv("./datasets/happysad1.csv", error_bad_lines=False)
+	data = pd.read_csv("./datasets/finaldataset1.csv", error_bad_lines=False)
 	data.columns = ['sentiment', 'content']
 	print(data.head())
 
